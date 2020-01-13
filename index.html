@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-  <head >
+  <head>
     <meta charset="utf-8" />
     <title>HTML5 boilerplate – all you really need…</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,31 +18,55 @@
       <input type="text" placeholder="Search" id="search-bar" />
     </header>
 
-    <section id="video">
-        <iframe width="820" height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+    <div id="main">
+      <div id="primary">
+        <section id="video">
+          <iframe
+            id="main-video"
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
 
-    <section id="video information">
-        <h2>Contributing to Open Source Part I: The Easy Way</h2>
-        <h3>53,064 views • Feb 27, 2014</h3>
-    </section>
+        <section id="video-information">
+          <h2>Contributing to Open Source Part I: The Easy Way</h2>
+          <h3>53,064 views • Feb 27, 2014</h3>
+        </section>
 
-    <section id="detailed-info">
-        <img>
-        <div id="upload-info">
-            <h3 id="info-name">The Odin Project</h3><br>
+        <section id="detailed-info">
+          <img />
+          <div id="upload-info">
+            <h3 id="info-name">The Odin Project</h3>
             <h4 id="info-subs">905 subscribers</h4>
             <button id="sub-button">Subscribe</button>
-        </div>
-        <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
-        <h4>Category
-        <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA">Science & Technology</a>
-        </h4>
-    </section>
-    <section id="recommendations"></section>
-    <section id="comments"></section>
+          </div>
+          <p id="description">
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking a
+            repo", or even touching Git outside of Github. I'll also describe
+            what kinds of contributions open source software projects are
+            typically looking for. As an example, I use submitting a student
+            solution to a web development exercise from The Odin Project, a free
+            online curriculum for learning web development with Ruby on Rails.
+            You can find more information about that project at
+            http://theodinproject.com.
+          </p>
+          <h4>
+            Category
+            <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA"
+              >Science & Technology</a
+            >
+          </h4>
+        </section>
+        <section id="comments"></section>
+      </div>
+
+      <div id="secondary">
+        <section id="recommendations"></section>
+      </div>
+    </div>
   </body>
-
-  
-
 </html>

@@ -12,29 +12,62 @@
   height: auto;
 }
 
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #search-bar {
   grid-column: 3;
   margin-top: 14px;
   margin-bottom: 14px;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;    
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-#upload-info{
-    display: flex;
-    flex-wrap: wrap;
+#primary {
+  justify-self: flex-start;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 70%;
 }
 
-#sub-button{
-    align-self: flex-end;
-
+#upload-info {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#info-title{
-    width: 100%;
-}    
+#description {
+  width: 60%;
+}
 
-/* #info-subs{ 
-}    */
+#video-information {
+  width: 100%;
+}
+
+#sub-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#info-title {
+  width: 100%;
+}
+
+#info-subs {
+  width: 100%;
+}
+
+#main-video {
+  width: 820px;
+  height: 540px;
+}
+
+#secondary {
+  background-color: black;
+  justify-self: flex-end;
+  width: 20%;
+}
