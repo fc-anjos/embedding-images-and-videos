@@ -1,6 +1,5 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0px;
   font-family: "Roboto", sans-serif;
   background-color: #f1f1f1;
   padding: 0;
@@ -45,21 +44,23 @@ p {
 #main {
   padding-top: 80px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
+}
+
+#primary {
+  width: 60%;
+}
+
+#secondary {
+  background-color: white;
+  width: 25%;
+  margin-left: 15px;
 }
 
 #search-bar {
   grid-column: 3;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-#primary {
-  justify-self: flex-start;
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 66%;
 }
 
 #description {
@@ -72,6 +73,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 5px;
+  width: 100%;
 }
 
 
@@ -90,11 +92,7 @@ iframe {
   /* overflow: auto; */
 }
 
-#secondary {
-  background-color: white;
-  justify-self: flex-end;
-  width: 30%;
-}
+
 
 .recomended-text {
   text-align: left;
@@ -125,11 +123,11 @@ iframe {
 #video-information{
   width: 100%;
   padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 7px;
-  padding-top: 7px;  
+  margin-top: 7px;
+  padding-top: 3px;
+  padding-bottom: 7px; 
+  background-color: white;
 }
-
 
 #name-subscribe{
   display: flex;
@@ -146,3 +144,31 @@ iframe {
   padding-bottom: 5px;
 }
 
+#interactions{
+  color: #7e7e7e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  height: au;
+  align-content: baseline;
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+}
+
+.likes{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-text{
+  display: flex;
+  margin: 5px;
+}
+
+.material-icons{
+  margin-right: 3px;
+}
