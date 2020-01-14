@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>HTML5 boilerplate – all you really need…</title>
+    <title>Contributing to Open Source Part I: The Easy Way</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
     <header id="youtube-header">
-      <img src="resources/YoutubeLogo.png" alt="logo" id="logo" />
+      <div id="logo-hamb">
+        <img src="resources/hamburguer.png" alt="config" id="hamb" />
+        <img src="resources/YoutubeLogo.png" alt="logo" id="logo" />
+      </div>
       <input type="text" placeholder="Search" id="search-bar" />
     </header>
 
@@ -30,19 +30,23 @@
           ></iframe>
         </section>
 
-        <section id="video-information">
+        <section id="detailed-info">
           <h2>Contributing to Open Source Part I: The Easy Way</h2>
-          <h3>53,064 views • Feb 27, 2014</h3>
+
+          <div id="upload-info">
+            <div id="avatar"></div>
+            <p id="info-name">The Odin Project</p>
+            <div id="sub-button">
+              Subscribe
+            </div>
+            <div id="info-subs">905</div>
+          </div>
+          <div id="views">50,016 views</div>
         </section>
 
-        <section id="detailed-info">
-          <img />
-          <div id="upload-info">
-            <h3 id="info-name">The Odin Project</h3>
-            <h4 id="info-subs">905 subscribers</h4>
-            <button id="sub-button">Subscribe</button>
-          </div>
-          <p id="description">
+        <div id="description">
+          <p id="date">Published on Feb 27, 2014</p>
+          <p>
             How do you contribute to open source? In this video, I'll describe
             the easiest way to make a simple contribution to an open source
             project -- without using the command line, a text editor, "forking a
@@ -54,42 +58,37 @@
             You can find more information about that project at
             http://theodinproject.com.
           </p>
-          <h4>
-            Category
-            <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA"
-              >Science & Technology</a
-            >
-          </h4>
-        </section>
+        </div>
+
         <section id="comments"></section>
       </div>
 
       <div id="secondary">
         <!-- <section id="recommendations"> -->
-            <div class="recomended-video">
-                <img class="thumbnail" src="resources/image1.png">
-            <div class="recomended-text">
-                    <div class="recomended-title"><b>Text 1</b></div>
-                    <div class="recomended-owner">Owner 1</div>
-                    <div class="recomended-views"> 1 View</div>
-                </div>
-            </div>
-            <div class="recomended-video">
-                <img class="thumbnail" src="resources/image2.png">
-            <div class="recomended-text">
-                    <div class="recomended-title"></div>
-                    <div class="recomended-owner"></div>
-                    <div class="recomended-views"></div>
-                </div>
-            </div>
-            <div class="recomended-video">
-                <img class="thumbnail" src="resources/image3.png">
-            <div class="recomended-text">
-                    <div class="recomended-title"></div>
-                    <div class="recomended-owner"></div>
-                    <div class="recomended-views"></div>
-                </div>
-            </div>
+        <div class="recomended-video">
+          <img class="thumbnail" src="resources/image1.png" />
+          <div class="recomended-text">
+            <div class="recomended-title"><b>Text 1</b></div>
+            <div class="recomended-owner">Owner 1</div>
+            <div class="recomended-views">1 View</div>
+          </div>
+        </div>
+        <div class="recomended-video">
+          <img class="thumbnail" src="resources/image2.png" />
+          <div class="recomended-text">
+            <div class="recomended-title"></div>
+            <div class="recomended-owner"></div>
+            <div class="recomended-views"></div>
+          </div>
+        </div>
+        <div class="recomended-video">
+          <img class="thumbnail" src="resources/image3.png" />
+          <div class="recomended-text">
+            <div class="recomended-title"></div>
+            <div class="recomended-owner"></div>
+            <div class="recomended-views"></div>
+          </div>
+        </div>
         <!-- </section> -->
       </div>
     </div>
