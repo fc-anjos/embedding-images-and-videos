@@ -9,6 +9,7 @@ p {
   padding: 0;
   margin: 0;
 }
+
 #youtube-header {
   background-color: white;
   display: grid;
@@ -64,18 +65,16 @@ p {
 }
 
 #description {
-  width: 100%;
   background-color: white;
+  margin-right: 15px;
 }
 
 #detailed-info {
   background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px;
-  width: 100%;
+  padding: 15px;
 }
-
 
 #video {
   position: relative;
@@ -91,8 +90,6 @@ iframe {
   resize: both;
   /* overflow: auto; */
 }
-
-
 
 .recomended-text {
   text-align: left;
@@ -119,56 +116,87 @@ iframe {
   font-size: 18pt;
 }
 
-
-#video-information{
-  width: 100%;
-  padding-left: 7px;
+#video-information {
   margin-top: 7px;
-  padding-top: 3px;
-  padding-bottom: 7px; 
+  padding: 15px;
   background-color: white;
 }
 
-#name-subscribe{
+#name-subscribe {
   display: flex;
   justify-content: start;
-  margin-left: 20px; 
+  margin-left: 20px;
   order: 2;
   flex-direction: column;
 }
 
-#block{
+#block {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid rgba(150, 149, 149, 0.384);
+  /* border-bottom: 1px solid rgba(150, 149, 149, 0.384); */
   padding-bottom: 5px;
 }
 
-#interactions{
+#interactions {
   color: #7e7e7e;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 7px;
   margin-bottom: 7px;
   height: au;
   align-content: baseline;
+  border-top: 1px solid rgba(150, 149, 149, 0.384);
 }
 
-.actions{
+.actions {
   display: flex;
   justify-content: center;
 }
 
-.likes{
+.likes {
   display: flex;
   justify-content: center;
 }
 
-.icon-text{
+.icon-text {
   display: flex;
   margin: 5px;
 }
 
-.material-icons{
+.material-icons {
   margin-right: 3px;
+}
+
+#sub-all {
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: row;
+}
+
+#sub-number {
+  color: #808080;
+  font-size: 0.8em;
+  margin: auto;
+  margin-right: 3px;
+  background-color: #fafafa;
+}
+
+#view-count {
+  color: #808080;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+#detailed-info {
+  color: #363636;
+  margin-bottom: 5px;
+}
+
+#show-more {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #808080;
+  text-transform: uppercase;
+  text-align: center;
 }
