@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Contributing to Open Source Part I: The Easy Way</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"rel="stylesheet"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
-  <body>
-    <div class="all">
-    <header id="youtube-header">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contributing to Open Source Part I: The Easy Way</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="all">
+    <nav id="youtube-header">
       <div id="logo-hamb">
         <img src="resources/hamburguer.png" alt="config" id="hamb" />
         <img src="resources/YoutubeLogo.png" alt="logo" id="logo" />
       </div>
       <div class="search-bar-icon">
         <input type="text" placeholder="Search" id="search-bar" />
-        <i class='material-icons'id="search-icon">search </i>
+        <i class='material-icons' id="search-icon">search </i>
       </div>
       <div id="upload-icon"><i class='material-icons'>file_upload</i></div>
       <button id="sign-in">Sign in</button>
 
-    </header>
+    </nav>
 
     <div id="main">
       <div id="primary">
 
         <section id="video">
-          <iframe
-            id="main-video"
-            src="https://www.youtube.com/embed/V74l_zS1x8E"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <iframe id="main-video" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
-          <!-- Video Information Section -->
+        <!-- Video Information Section -->
         <section id="video-information">
-          <div id="title"><h2>Contributing to Open Source Part I: The Easy Way</h2></div>
+          <div id="title">
+            <h2>Contributing to Open Source Part I: The Easy Way</h2>
+          </div>
 
           <div id="block">
-            <div id="img-name"><img src="resources/name.png"/></div>
-              <div id="name-subscribe">
+            <div id="img-name"><img src="resources/name.png" /></div>
+            <div id="name-subscribe">
               <span id="info-name">The Odin Project</span>
-                <div id="sub-all">
+              <div id="sub-all">
                 <input id="sub-button" type="image" src="resources/subscribe-button.png">
                 <span id="sub-number">799</span>
               </div>
@@ -52,37 +51,37 @@
           </div>
 
           <p id="view-count"> 50,016 views </p>
-            <div id="interactions">
-              <div class="actions">
+          <div id="interactions">
+            <div class="actions">
 
-                <div class="icon-text">
-                  <i class='material-icons'> add </i><span> Add to</span>
-                </div>
-
-                <div class="icon-text">
-                  <i class='material-icons'>call_made </i><span> Share</span>
-                </div>
-                <div class="icon-text">
-                  <i class='material-icons'> more_horiz </i><span> More</span>
-                </div>
+              <div class="icon-text">
+                <i class='material-icons'> add </i><span> Add to</span>
               </div>
-              <div class="likes">
-                <div class="icon-text">
-                  <i class='material-icons'> thumb_up </i><span> 359</span>
-                </div>
-                <div class="icon-text">
-                  <i class='material-icons'> thumb_down </i><span> 14</span>
-                </div>
+
+              <div class="icon-text">
+                <i class='material-icons'>call_made </i><span> Share</span>
+              </div>
+              <div class="icon-text">
+                <i class='material-icons'> more_horiz </i><span> More</span>
               </div>
             </div>
+            <div class="likes">
+              <div class="icon-text">
+                <i class='material-icons'> thumb_up </i><span> 359</span>
+              </div>
+              <div class="icon-text">
+                <i class='material-icons'> thumb_down </i><span> 14</span>
+              </div>
+            </div>
+          </div>
 
         </section>
 
-         <!-- Video Description Section -->
-         <section id="detailed-info">
-            <div id="upload-info">
-              <span id="info-subs"><b>Published on Feb 27, 2014</b></span>
-            </div>
+        <!-- Video Description Section -->
+        <section id="detailed-info">
+          <div id="upload-info">
+            <span id="info-subs"><b>Published on Feb 27, 2014</b></span>
+          </div>
           <p id="description">
             How do you contribute to open source? In this video, I'll describe
             the easiest way to make a simple contribution to an open source
@@ -98,17 +97,36 @@
           <p id="show-more"> show more </p>
         </section>
         <section id="comments">
-          <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <span id="loading">Loading...</span>
         </section>
-      
+
       </div>
 
 
       <div id="secondary">
         <!-- <section id="recommendations"> -->
-        <input type="checkbox" checked="checked" value="on">
-        <div class="recomended-video">
+        <div id="next-video">
+          <span id="up-next"><b>Up next</b></span>
+          <div id="autoplay-control">
+            <label for="autoplay-checkbox" id="autoplay"> <b>Autoplay </b></label>
+            <input id="autoplay-checkbox" type="checkbox" checked="checked" value="on">
+          </div>
+        </div>
+        <div class="recomended-video" id="first-recomended">
           <img class="thumbnail" src="resources/image1.png" />
           <div class="recomended-text">
             <div class="recomended-title"><b>Contributing to Open Source Part II: The Real Way </b></div>
@@ -136,6 +154,7 @@
       </div>
     </div>
   </div>
-</div>
-  </body>
+  </div>
+</body>
+
 </html>
