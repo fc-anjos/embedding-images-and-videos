@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+    <div class="all">
     <header id="youtube-header">
       <div id="logo-hamb">
         <img src="resources/hamburguer.png" alt="config" id="hamb" />
         <img src="resources/YoutubeLogo.png" alt="logo" id="logo" />
       </div>
-      <input type="text" placeholder="Search" id="search-bar" />
+      <div class="search-bar-icon">
+        <input type="text" placeholder="Search" id="search-bar" />
+        <i class='material-icons'id="search-icon">search </i>
+      </div>
+      <div id="upload-icon"><i class='material-icons'>file_upload</i></div>
+      <button id="sign-in">Sign in</button>
+
     </header>
 
     <div id="main">
@@ -100,7 +107,7 @@
 
       <div id="secondary">
         <!-- <section id="recommendations"> -->
-          <input type="checkbox" checked="checked" value="on">
+        <input type="checkbox" checked="checked" value="on">
         <div class="recomended-video">
           <img class="thumbnail" src="resources/image1.png" />
           <div class="recomended-text">
@@ -129,5 +136,6 @@
       </div>
     </div>
   </div>
+</div>
   </body>
 </html>
