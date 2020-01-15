@@ -83,13 +83,17 @@ p {
 }
 
 #main {
-  padding-top: 80px;
+  padding-top: 65px;
   display: flex;
   flex-direction: row;
 }
 
 #primary {
   width: 70%;
+}
+
+#primary > *{
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
 }
 
 #secondary {
@@ -153,33 +157,41 @@ iframe {
   width: 60%;
   font-size: 15pt;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .recomended-video {
   display: flex;
   justify-content: flex-start;
-  align-content: space-around;
+  align-content: space-between;
   width: 100%;
   margin-bottom: 7px;
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .recomended-title {
-  font-size: 0.8em;
   width: 100%;
   margin-bottom: 15px;
   overflow: hidden;
+  font-size: 1em;
 }
 
 .recomended-owner {
   margin-bottom: 5px;
-  font-size: 0.6em;
+  font-size: 0.9em;
   color: #808080;
 }
 
 .recomended-views {
-  font-size: 0.6em;
+  font-size: 0.9em;
   color: #808080;
+}
+
+#title-views{
+  align-self: flex-end;
 }
 
 .thumbnail {
@@ -192,8 +204,11 @@ iframe {
 }
 
 #video-information {
-  margin-top: 7px;
-  padding: 15px;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-right: 15px;
   background-color: white;
 }
 
@@ -216,6 +231,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 20px;
   margin-top: 7px;
   margin-bottom: 7px;
   height: au;
@@ -242,18 +258,66 @@ iframe {
   margin-right: 3px;
 }
 
+#sub{
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
+
 #sub-all {
   border: 1px solid #ccc;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+/* mouse over link */
+#sub-all:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#sub-all:active {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#sub-all:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#sub-all:link {
+  text-decoration: none;
+  color: white;
 }
 
 #sub-number {
   color: #808080;
-  font-size: 0.8em;
   margin: auto;
-  margin-right: 3px;
   background-color: #fafafa;
+  font-size: inherit;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#sub-red {
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: inherit;
+  padding-top: 5px;
+  align-items: center;
+}
+
+#sub-button > *{
+  font-size: 1.5em;
+  line-height: 19px;
 }
 
 #view-count {
