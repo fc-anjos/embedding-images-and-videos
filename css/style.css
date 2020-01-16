@@ -234,7 +234,6 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 7px;
   margin-bottom: 7px;
   height: au;
   align-content: baseline;
@@ -326,6 +325,15 @@ iframe {
   color: #808080;
   font-size: 1.3em;
   text-align: right;
+}
+
+#view-line {
+  height: 2px;
+  width: 18%;
+  margin-top: 8px;
+  margin-left: 80%;
+  margin-right: 2%;
+  background-color: #167ac6;
 }
 
 #show-more {
