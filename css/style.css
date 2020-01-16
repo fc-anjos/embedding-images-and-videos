@@ -9,7 +9,7 @@ p {
   margin: 0;
 }
 
-#youtube-header {
+.youtube-header {
   background-color: white;
   display: flex;
   height: 56px;
@@ -22,13 +22,13 @@ p {
   justify-content: space-between;
 }
 
-#prof-picture {
+.prof-picture {
   color: white;
   padding: 0 0 0 15px;
   margin-right: 40px;
 }
 
-#logo-hamb {
+.logo-hamb {
   display: flex;
   height: inherit;
   align-items: center;
@@ -44,7 +44,7 @@ p {
   width: 70%;
 }
 
-#search-bar {
+.search-bar {
   grid-column: 3;
   width: 100%;
   box-shadow: none;
@@ -74,26 +74,26 @@ p {
   color: #959595;
 }
 
-#logo {
+.logo {
   width: 80px;
   height: auto;
 }
 
-#main {
+main {
   padding-top: 65px;
   display: flex;
   flex-direction: row;
 }
 
-#primary {
+.primary {
   width: 70%;
 }
 
-#primary > * {
+.primary > * {
   box-shadow: rgba(0, 0, 0, 0.0976562) 0 1px 2px;
 }
 
-#secondary {
+.secondary {
   background-color: white;
   width: 30%;
   margin-left: 15px;
@@ -102,7 +102,7 @@ p {
   padding-left: 20px;
 }
 
-#next-video {
+.next-video {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -114,20 +114,20 @@ p {
   border-bottom: 2px solid #e2e2e2;
 }
 
-#autoplay {
+.autoplay {
   color: gray;
 }
 
-#autoplay-control {
+.autoplay-control {
   padding-bottom: 10px;
 }
 
-#description {
+.description {
   background-color: white;
   margin-right: 15px;
 }
 
-#detailed-info {
+.detailed-info {
   color: #363636;
   background-color: white;
   margin-top: 10px;
@@ -135,7 +135,7 @@ p {
   padding: 15px;
 }
 
-#video {
+.video {
   position: relative;
   padding-top: 56.25%;
 }
@@ -150,13 +150,13 @@ iframe {
 }
 
 .recomended-text {
-  text-align: left;
-  width: 60%;
-  font-size: 15pt;
-  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: left;
+  width: 50%;
+  font-size: 15pt;
+  margin-left: 10px;
 }
 
 .recomended-video {
@@ -173,6 +173,9 @@ iframe {
   width: 100%;
   margin-bottom: 15px;
   overflow: hidden;
+}
+
+.recomended-title > b {
   font-size: 1em;
 }
 
@@ -187,20 +190,12 @@ iframe {
   color: #808080;
 }
 
-#title-views {
-  align-self: flex-end;
-}
-
 .thumbnail {
   width: 50%;
   object-fit: contain;
 }
 
-#recomended-title {
-  font-size: 18pt;
-}
-
-#video-information {
+.video-information {
   margin-top: 15px;
   padding-left: 15px;
   padding-bottom: 15px;
@@ -209,7 +204,7 @@ iframe {
   background-color: white;
 }
 
-#name-subscribe {
+.name-subscribe {
   display: flex;
   justify-content: start;
   margin-left: 20px;
@@ -217,19 +212,18 @@ iframe {
   flex-direction: column;
 }
 
-#block {
+.block {
   display: flex;
   flex-direction: row;
   padding-bottom: 5px;
 }
 
-#interactions {
+.interactions {
   color: #7e7e7e;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 7px;
   margin-bottom: 7px;
   height: au;
   align-content: baseline;
@@ -255,44 +249,41 @@ iframe {
   margin-right: 3px;
 }
 
-#sub {
+.sub {
   font-size: 1.2em;
   padding-bottom: 5px;
 }
 
-#sub-all {
+.sub-all {
   border: 1px solid #ccc;
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 0.8em;
+  border-radius: 3px;
 }
 
-/* mouse over link */
-#sub-all:hover {
+.sub-all:hover {
   color: white;
   text-decoration: none;
 }
 
-/* selected link */
-#sub-all:active {
+.sub-all:active {
   color: white;
   text-decoration: none;
 }
 
-/* selected link */
-#sub-all:visited {
+.sub-all:visited {
   color: white;
   text-decoration: none;
 }
 
-/* selected link */
-#sub-all:link {
+.sub-all:link {
   text-decoration: none;
   color: white;
 }
 
-#sub-number {
+.sub-number {
   color: #808080;
   margin: auto;
   background-color: #fafafa;
@@ -301,7 +292,7 @@ iframe {
   padding-right: 7px;
 }
 
-#sub-red {
+.sub-red {
   background-color: rgb(255, 0, 0);
   display: flex;
   flex-direction: row;
@@ -310,20 +301,35 @@ iframe {
   font-size: inherit;
   padding-top: 5px;
   align-items: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 
-#sub-button > * {
+.img-name{
+  object-fit: fill;
+}
+
+.sub-button > * {
   font-size: 1.5em;
   line-height: 19px;
 }
 
-#view-count {
+.view-count {
   color: #808080;
   font-size: 1.3em;
   text-align: right;
 }
 
-#show-more {
+.view-line {
+  height: 2px;
+  width: 18%;
+  margin-top: 8px;
+  margin-left: 80%;
+  margin-right: 2%;
+  background-color: #167ac6;
+}
+
+.show-more {
   border-top: 1px solid rgba(150, 149, 149, 0.384);
   margin-top: 10px;
   padding-top: 10px;
@@ -333,7 +339,7 @@ iframe {
   text-align: center;
 }
 
-#comments {
+.comments {
   background-color: white;
   text-align: center;
   display: flex;
@@ -344,7 +350,6 @@ iframe {
   padding: 20px;
 }
 
-/* Loading Icon  https://loading.io/css */
 .lds-default {
   display: inline-block;
   position: relative;
@@ -445,5 +450,3 @@ iframe {
     transform: scale(1.5);
   }
 }
-
-/* Loading Icon - finish */
