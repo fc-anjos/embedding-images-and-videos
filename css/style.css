@@ -22,15 +22,10 @@ p {
   justify-content: space-between;
 }
 
-.sign-in {
-  background-color: #167ac6;
-  border-radius: 5px;
-  border-style: solid;
+.prof-picture {
   color: white;
-  padding: 7px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-right: 50px;
+  padding: 0 0 0 15px;
+  margin-right: 40px;
 }
 
 .logo-hamb {
@@ -265,6 +260,7 @@ iframe {
   flex-direction: row;
   align-items: center;
   font-size: 0.8em;
+  border-radius: 3px;
 }
 
 .sub-all:hover {
@@ -305,6 +301,12 @@ iframe {
   font-size: inherit;
   padding-top: 5px;
   align-items: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.img-name {
+  object-fit: fill;
 }
 
 .sub-button > * {

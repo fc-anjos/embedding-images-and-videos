@@ -14,9 +14,9 @@
 GitHub: [@fc-anjos](https://github.com/fc-anjos)  
 
 ##### Brenda Yucra
-Github: @githubhandle
-Twitter: @twitterhandle
-Linkedin: linkedin
+Github: [@bren2102](https://github.com/bren2102) 
+Twitter: [@BrendaYucra2](https://twitter.com/BrendaYucra)
+Linkedin: [Brenda Yucra](https://www.linkedin.com/in/brenda-yucra-51980681/)
 
 
 ### Contributions and issues are welcome!
