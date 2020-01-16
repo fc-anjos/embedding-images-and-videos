@@ -7,6 +7,7 @@
     html
     css 
 
+### Check it online!
 [Live preview](https://fc-anjos.github.io/embedding-images-and-videos/)
 
 ### Authors:
