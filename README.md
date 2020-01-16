@@ -1,6 +1,7 @@
 # Embedding images and videos 
   Building an HTML document that matches the appearance of youtube as part of Microverse's program.
 
+![Screenshot of the project](/youtube_project.png?raw=true "Screenshot of the project")
 ### Built With
     html
     css 
