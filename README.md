@@ -9,19 +9,19 @@
 
 ### Check it online!
 [Live preview](https://fc-anjos.github.io/embedding-images-and-videos/)
+[Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)
 
 ### Authors:
-##### Felipe dos Anjos
 
-    Github: @fc-anjos
-    Linkedin: [Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)
+##### Felipe dos Anjos
+GitHub: [@fc-anjos](https://github.com/fc-anjos)  
+Linkedin: [Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)  
 
 
 ##### Brenda Yucra
-
-    Github: @githubhandle
-    Twitter: @twitterhandle
-    Linkedin: linkedin
+Github: @githubhandle
+Twitter: @twitterhandle
+Linkedin: linkedin
 
 
 ### Contributions and issues are welcome!
