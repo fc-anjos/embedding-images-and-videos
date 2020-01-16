@@ -11,10 +11,11 @@
 [Live preview](https://fc-anjos.github.io/embedding-images-and-videos/)
 
 ### Authors:
-##### Felipe dos Anjos and Brenda Yucra
+##### Felipe dos Anjos
 
     Github: @fc-anjos
-    Linkedin: felipe-cavalheiro-dos-anjos
+    Linkedin: [Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)
+
 
 ##### Brenda Yucra
 
