@@ -1,9 +1,7 @@
 # Embedding images and videos 
-
   Building an HTML document that matches the appearance of youtube as part of Microverse's program.
 
 ### Built With
-    
     html
     css 
 
@@ -12,23 +10,19 @@
 
 ### Authors:
 ##### Felipe dos Anjos
-
-    Github: @fc-anjos
-    Linkedin: [Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)
-
+GitHub: [@fc-anjos](https://github.com/fc-anjos)  
 
 ##### Brenda Yucra
-
-    Github: @githubhandle
-    Twitter: @twitterhandle
-    Linkedin: linkedin
+Github: @githubhandle
+Twitter: @twitterhandle
+Linkedin: linkedin
 
 
 ### Contributions and issues are welcome!
 
 ### Acknowledgments
     
-   Addo Forison (github: @Forison) for code-review  
+Addo Forison (github: @Forison) for code-review  
 
 ### License
 This project is MIT licensed.
